@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<Locations>
+  <Project>
+    <vfs_file>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/default.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/./</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 3" >
+      <vfs_project />
+      <vfs_file>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/default.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/default.gpr</vfs_project>
+      <vfs_file>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 27" >
+      <vfs_project>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/default.gpr</vfs_project>
+      <vfs_file>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/default.gpr</vfs_project>
+      <vfs_file>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/mycommandline.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/default.gpr</vfs_project>
+      <vfs_file>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/mycommandline.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 27" >
+      <vfs_project>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/default.gpr</vfs_project>
+      <vfs_file>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/default.gpr</vfs_project>
+      <vfs_file>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/mystring.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 27" >
+      <vfs_project>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/default.gpr</vfs_project>
+      <vfs_file>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/default.gpr</vfs_project>
+      <vfs_file>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/mystringtokeniser.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 27" >
+      <vfs_project>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/default.gpr</vfs_project>
+      <vfs_file>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/default.gpr</vfs_project>
+      <vfs_file>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/variablestore.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 27" >
+      <vfs_project>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/default.gpr</vfs_project>
+      <vfs_file>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/default.gpr</vfs_project>
+      <vfs_file>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/pin.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 27" >
+      <vfs_project>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/default.gpr</vfs_project>
+      <vfs_file>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/default.gpr</vfs_project>
+      <vfs_file>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/stringtointeger.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/default.gpr</vfs_project>
+      <vfs_file>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/stringtointeger.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 27" >
+      <vfs_project>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/default.gpr</vfs_project>
+      <vfs_file>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/default.gpr</vfs_project>
+      <vfs_file>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/mystringtokeniser.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/default.gpr</vfs_project>
+      <vfs_file>/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/mystringtokeniser.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

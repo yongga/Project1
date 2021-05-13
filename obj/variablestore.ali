@@ -1,0 +1,491 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -mtune=core2
+A -mmacosx-version-min=10.16.0
+A -fPIC
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_IMPLICIT_HEAP_ALLOCATIONS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U variablestore%b	variablestore.adb	868dcd5d NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z mystring%s		mystring.adb		mystring.ali  ED
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U variablestore%s	variablestore.ads	da769ae4 EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.containers.formal_ordered_maps%s
+Z ada.containers.functional_maps%s
+Z ada.containers.functional_vectors%s
+Z ada.containers.red_black_trees%s  a-crbltr.ads  a-crbltr.ali
+Z ada.containers.red_black_trees.generic_bounded_keys%s
+Z ada.containers.red_black_trees.generic_bounded_operations%s
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.text_io%s		a-textio.adb		a-textio.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W mystring%s		mystring.adb		mystring.ali
+Z system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20190518041255 76789da1 ada%s
+D a-contai.ads		20190518041254 61e5e089 ada.containers%s
+D a-cforma.ads		20190518041254 4dc2c126 ada.containers.formal_ordered_maps%s
+D a-cforma.adb		20190518041254 a38439f2 ada.containers.formal_ordered_maps%b
+D a-cofuba.ads		20190518041254 24945d4e ada.containers.functional_base%s
+D a-cofuba.adb		20190518041255 8765a36c ada.containers.functional_base%b
+D a-cofuma.ads		20190518041256 61667f51 ada.containers.functional_maps%s
+D a-cofuma.adb		20190518041254 8c0e325d ada.containers.functional_maps%b
+D a-cofuve.ads		20190518041256 0334cb05 ada.containers.functional_vectors%s
+D a-cofuve.adb		20190518041256 5633ee38 ada.containers.functional_vectors%b
+D a-conhel.ads		20190518041254 20298884 ada.containers.helpers%s
+D a-conhel.adb		20190518041256 9cc5095b ada.containers.helpers%b
+D a-crbltr.ads		20190518041255 c3e90a86 ada.containers.red_black_trees%s
+D a-rbtgbk.ads		20190518041256 360e50a8 ada.containers.red_black_trees.generic_bounded_keys%s
+D a-rbtgbk.adb		20190518041255 103369a3 ada.containers.red_black_trees.generic_bounded_keys%b
+D a-rbtgbo.ads		20190518041255 a2816f8a ada.containers.red_black_trees.generic_bounded_operations%s
+D a-rbtgbo.adb		20190518041254 65411810 ada.containers.red_black_trees.generic_bounded_operations%b
+D a-except.ads		20190518041255 291912d5 ada.exceptions%s
+D a-finali.ads		20190518041255 bf4f806b ada.finalization%s
+D a-inteio.ads		20190518041256 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20190518041254 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190518041255 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041256 491b781d ada.tags%s
+D a-textio.ads		20190518041256 aef4d56d ada.text_io%s
+D a-tiinio.ads		20190518041254 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20190518041255 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20190518041254 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041254 e53d8b8e interfaces.c_streams%s
+D mystring.ads		20200512062306 ce083c8f mystring%s
+D mystring.adb		20200512062306 8198c1c4 mystring%b
+D system.ads		20190518041255 085b6ffb system%s
+D s-atocou.ads		20190518041256 b45c2d8d system.atomic_counters%s
+D s-atocou.adb		20190518041255 b65612c0 system.atomic_counters%b
+D s-crtl.ads		20190518041254 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041255 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041256 078245e4 system.file_control_block%s
+D s-finmas.ads		20190518041255 7811a767 system.finalization_masters%s
+D s-finroo.ads		20190518041256 4ff27390 system.finalization_root%s
+D s-memory.ads		20190518041255 597d6634 system.memory%s
+D s-parame.ads		20190518041256 48ec542b system.parameters%s
+D s-secsta.ads		20190518041256 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041255 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041256 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041256 09bd3940 system.standard_library%s
+D s-stalib.adb		20190518041254 f2fe2716 system.standard_library%b
+D s-stoele.ads		20190518041256 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20190518041255 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20190518041255 b16154c2 system.storage_pools%s
+D s-stposu.ads		20190518041254 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20190518041254 aedef97e system.stream_attributes%s
+D s-traent.ads		20190518041254 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041255 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041255 1b7d22d2 system.wch_con%s
+D variablestore.ads	20210503141117 385987c4 variablestore%s
+D variablestore.adb	20210503142421 e66b1650 variablestore%b
+G a e
+G c s s s [s variablestore 7 1 none]
+G c Z s s [to_string variablestore__variables 8 13 11_4]
+G c Z s s [from_string variablestore__variables 12 13 11_4]
+G c Z s s [less variablestore__variables 16 13 11_4]
+G c Z s s [equal variablestore__variables 18 13 11_4]
+G c Z s s [length variablestore__variables 23 13 11_4]
+G c Z s s [substring variablestore__variables 26 13 11_4]
+G c Z s s [get variablestore__variables 30 13 11_4]
+G c Z s s [get_line variablestore__variables 33 14 11_4]
+G c Z s s [TmystringstrBIP variablestore__variables 36 4 11_4]
+G c Z s s [mystringIP variablestore__variables 37 9 11_4]
+G c Z s b [init variablestore 17 14 none]
+G c Z s s [has_variable variablestore 19 13 none]
+G c Z s s [get variablestore 21 13 none]
+G c Z s b [put variablestore 24 14 none]
+G c Z s b [remove variablestore 27 14 none]
+G c Z s s [from_string variablestore 30 13 none]
+G c Z s s [to_string variablestore 32 13 none]
+G c Z s s [less variablestore 34 13 none]
+G c Z s s [equal variablestore 35 13 none]
+G c Z s s [length variablestore 37 13 none]
+G c Z s b [print variablestore 39 14 none]
+G c Z s s [equivalent_keys variablestore__pw_ordered_maps 67 13 44_4]
+G c Z s s [mapDefault_Initial_Condition variablestore__pw_ordered_maps 73 9 44_4]
+G c Z s s [cursorIP variablestore__pw_ordered_maps 81 9 44_4]
+G c Z s s [length variablestore__pw_ordered_maps 89 13 44_4]
+G c Z s s [mapDefault_Initial_Condition variablestore__pw_ordered_maps__formal_model__m 50 9 98_7_44_4]
+G c Z s s [has_key variablestore__pw_ordered_maps__formal_model__m 72 13 98_7_44_4]
+G c Z s s [get variablestore__pw_ordered_maps__formal_model__m 84 13 98_7_44_4]
+G c Z s s [length variablestore__pw_ordered_maps__formal_model__m 99 13 98_7_44_4]
+G c Z s s [Ole variablestore__pw_ordered_maps__formal_model__m 107 13 98_7_44_4]
+G c Z s s [Oeq variablestore__pw_ordered_maps__formal_model__m 116 13 98_7_44_4]
+G c Z s s [is_empty variablestore__pw_ordered_maps__formal_model__m 128 13 98_7_44_4]
+G c Z s s [keys_included variablestore__pw_ordered_maps__formal_model__m 135 13 98_7_44_4]
+G c Z s s [same_keys variablestore__pw_ordered_maps__formal_model__m 143 13 98_7_44_4]
+G c Z s s [keys_included_except variablestore__pw_ordered_maps__formal_model__m 154 13 98_7_44_4]
+G c Z s s [keys_included_except variablestore__pw_ordered_maps__formal_model__m 168 13 98_7_44_4]
+G c Z s s [elements_equal_except variablestore__pw_ordered_maps__formal_model__m 185 13 98_7_44_4]
+G c Z s s [elements_equal_except variablestore__pw_ordered_maps__formal_model__m 201 13 98_7_44_4]
+G c Z s s [add variablestore__pw_ordered_maps__formal_model__m 227 13 98_7_44_4]
+G c Z s s [set variablestore__pw_ordered_maps__formal_model__m 245 13 98_7_44_4]
+G c Z s s [has_witness variablestore__pw_ordered_maps__formal_model__m 268 13 98_7_44_4]
+G c Z s s [witness variablestore__pw_ordered_maps__formal_model__m 274 13 98_7_44_4]
+G c Z s s [w_get variablestore__pw_ordered_maps__formal_model__m 282 13 98_7_44_4]
+G c Z s s [iter_first variablestore__pw_ordered_maps__formal_model__m 296 13 98_7_44_4]
+G c Z s s [iter_has_element variablestore__pw_ordered_maps__formal_model__m 299 13 98_7_44_4]
+G c Z s s [iter_next variablestore__pw_ordered_maps__formal_model__m 305 13 98_7_44_4]
+G c Z s s [iter_element variablestore__pw_ordered_maps__formal_model__m 310 13 98_7_44_4]
+G c Z s s [Oeq variablestore__pw_ordered_maps__formal_model__m__element_containers 52 13 326_4_98_7_44_4]
+G c Z s s [length variablestore__pw_ordered_maps__formal_model__m__element_containers 55 13 326_4_98_7_44_4]
+G c Z s s [get variablestore__pw_ordered_maps__formal_model__m__element_containers 58 13 326_4_98_7_44_4]
+G c Z s s [set variablestore__pw_ordered_maps__formal_model__m__element_containers 61 13 326_4_98_7_44_4]
+G c Z s s [add variablestore__pw_ordered_maps__formal_model__m__element_containers 68 13 326_4_98_7_44_4]
+G c Z s s [remove variablestore__pw_ordered_maps__formal_model__m__element_containers 74 13 326_4_98_7_44_4]
+G c Z s s [find variablestore__pw_ordered_maps__formal_model__m__element_containers 77 13 326_4_98_7_44_4]
+G c Z s s [Ole variablestore__pw_ordered_maps__formal_model__m__element_containers 85 13 326_4_98_7_44_4]
+G c Z s s [num_overlaps variablestore__pw_ordered_maps__formal_model__m__element_containers 88 13 326_4_98_7_44_4]
+G c Z s s [union variablestore__pw_ordered_maps__formal_model__m__element_containers 91 13 326_4_98_7_44_4]
+G c Z s s [intersection variablestore__pw_ordered_maps__formal_model__m__element_containers 95 13 326_4_98_7_44_4]
+G c Z s s [element_arrayIP variablestore__pw_ordered_maps__formal_model__m__element_containers 105 9 326_4_98_7_44_4]
+G c Z s s [containerIP variablestore__pw_ordered_maps__formal_model__m__element_containers 113 9 326_4_98_7_44_4]
+G c Z s s [to_count variablestore__pw_ordered_maps__formal_model__m__element_containers 36 13 326_4_98_7_44_4]
+G c Z s s [to_index variablestore__pw_ordered_maps__formal_model__m__element_containers 41 13 326_4_98_7_44_4]
+G c Z s s [find variablestore__pw_ordered_maps__formal_model__m__element_containers 46 13 326_4_98_7_44_4]
+G c Z s s [Oeq variablestore__pw_ordered_maps__formal_model__m__key_containers 52 13 330_4_98_7_44_4]
+G c Z s s [length variablestore__pw_ordered_maps__formal_model__m__key_containers 55 13 330_4_98_7_44_4]
+G c Z s s [get variablestore__pw_ordered_maps__formal_model__m__key_containers 58 13 330_4_98_7_44_4]
+G c Z s s [set variablestore__pw_ordered_maps__formal_model__m__key_containers 61 13 330_4_98_7_44_4]
+G c Z s s [add variablestore__pw_ordered_maps__formal_model__m__key_containers 68 13 330_4_98_7_44_4]
+G c Z s s [remove variablestore__pw_ordered_maps__formal_model__m__key_containers 74 13 330_4_98_7_44_4]
+G c Z s s [find variablestore__pw_ordered_maps__formal_model__m__key_containers 77 13 330_4_98_7_44_4]
+G c Z s s [Ole variablestore__pw_ordered_maps__formal_model__m__key_containers 85 13 330_4_98_7_44_4]
+G c Z s s [num_overlaps variablestore__pw_ordered_maps__formal_model__m__key_containers 88 13 330_4_98_7_44_4]
+G c Z s s [union variablestore__pw_ordered_maps__formal_model__m__key_containers 91 13 330_4_98_7_44_4]
+G c Z s s [intersection variablestore__pw_ordered_maps__formal_model__m__key_containers 95 13 330_4_98_7_44_4]
+G c Z s s [element_arrayIP variablestore__pw_ordered_maps__formal_model__m__key_containers 105 9 330_4_98_7_44_4]
+G c Z s s [containerIP variablestore__pw_ordered_maps__formal_model__m__key_containers 113 9 330_4_98_7_44_4]
+G c Z s s [to_count variablestore__pw_ordered_maps__formal_model__m__key_containers 36 13 330_4_98_7_44_4]
+G c Z s s [to_index variablestore__pw_ordered_maps__formal_model__m__key_containers 41 13 330_4_98_7_44_4]
+G c Z s s [find variablestore__pw_ordered_maps__formal_model__m__key_containers 46 13 330_4_98_7_44_4]
+G c Z s s [mapIP variablestore__pw_ordered_maps__formal_model__m 334 9 98_7_44_4]
+G c Z s s [sequenceDefault_Initial_Condition variablestore__pw_ordered_maps__formal_model__k 50 9 111_7_44_4]
+G c Z s s [length variablestore__pw_ordered_maps__formal_model__k 67 13 111_7_44_4]
+G c Z s s [get variablestore__pw_ordered_maps__formal_model__k 75 13 111_7_44_4]
+G c Z s s [last variablestore__pw_ordered_maps__formal_model__k 84 13 111_7_44_4]
+G c Z s s [first variablestore__pw_ordered_maps__formal_model__k 94 13 111_7_44_4]
+G c Z s s [Oeq variablestore__pw_ordered_maps__formal_model__k 101 13 111_7_44_4]
+G c Z s s [Olt variablestore__pw_ordered_maps__formal_model__k 112 13 111_7_44_4]
+G c Z s s [Ole variablestore__pw_ordered_maps__formal_model__k 123 13 111_7_44_4]
+G c Z s s [contains variablestore__pw_ordered_maps__formal_model__k 134 13 111_7_44_4]
+G c Z s s [constant_range variablestore__pw_ordered_maps__formal_model__k 149 13 111_7_44_4]
+G c Z s s [equal_except variablestore__pw_ordered_maps__formal_model__k 165 13 111_7_44_4]
+G c Z s s [equal_except variablestore__pw_ordered_maps__formal_model__k 181 13 111_7_44_4]
+G c Z s s [range_equal variablestore__pw_ordered_maps__formal_model__k 199 13 111_7_44_4]
+G c Z s s [range_shifted variablestore__pw_ordered_maps__formal_model__k 215 13 111_7_44_4]
+G c Z s s [set variablestore__pw_ordered_maps__formal_model__k 258 13 111_7_44_4]
+G c Z s s [add variablestore__pw_ordered_maps__formal_model__k 272 13 111_7_44_4]
+G c Z s s [add variablestore__pw_ordered_maps__formal_model__k 286 13 111_7_44_4]
+G c Z s s [remove variablestore__pw_ordered_maps__formal_model__k 314 13 111_7_44_4]
+G c Z s s [iter_first variablestore__pw_ordered_maps__formal_model__k 341 13 111_7_44_4]
+G c Z s s [iter_has_element variablestore__pw_ordered_maps__formal_model__k 344 13 111_7_44_4]
+G c Z s s [iter_next variablestore__pw_ordered_maps__formal_model__k 354 13 111_7_44_4]
+G c Z s s [Oeq variablestore__pw_ordered_maps__formal_model__k__containers 52 13 365_4_111_7_44_4]
+G c Z s s [length variablestore__pw_ordered_maps__formal_model__k__containers 55 13 365_4_111_7_44_4]
+G c Z s s [get variablestore__pw_ordered_maps__formal_model__k__containers 58 13 365_4_111_7_44_4]
+G c Z s s [set variablestore__pw_ordered_maps__formal_model__k__containers 61 13 365_4_111_7_44_4]
+G c Z s s [add variablestore__pw_ordered_maps__formal_model__k__containers 68 13 365_4_111_7_44_4]
+G c Z s s [remove variablestore__pw_ordered_maps__formal_model__k__containers 74 13 365_4_111_7_44_4]
+G c Z s s [find variablestore__pw_ordered_maps__formal_model__k__containers 77 13 365_4_111_7_44_4]
+G c Z s s [Ole variablestore__pw_ordered_maps__formal_model__k__containers 85 13 365_4_111_7_44_4]
+G c Z s s [num_overlaps variablestore__pw_ordered_maps__formal_model__k__containers 88 13 365_4_111_7_44_4]
+G c Z s s [union variablestore__pw_ordered_maps__formal_model__k__containers 91 13 365_4_111_7_44_4]
+G c Z s s [intersection variablestore__pw_ordered_maps__formal_model__k__containers 95 13 365_4_111_7_44_4]
+G c Z s s [element_arrayIP variablestore__pw_ordered_maps__formal_model__k__containers 105 9 365_4_111_7_44_4]
+G c Z s s [containerIP variablestore__pw_ordered_maps__formal_model__k__containers 113 9 365_4_111_7_44_4]
+G c Z s s [to_count variablestore__pw_ordered_maps__formal_model__k__containers 36 13 365_4_111_7_44_4]
+G c Z s s [to_index variablestore__pw_ordered_maps__formal_model__k__containers 41 13 365_4_111_7_44_4]
+G c Z s s [find variablestore__pw_ordered_maps__formal_model__k__containers 46 13 365_4_111_7_44_4]
+G c Z s s [sequenceIP variablestore__pw_ordered_maps__formal_model__k 369 9 111_7_44_4]
+G c Z s s [k_bigger_than_range variablestore__pw_ordered_maps__formal_model 127 16 44_4]
+G c Z s s [k_smaller_than_range variablestore__pw_ordered_maps__formal_model 140 16 44_4]
+G c Z s s [k_is_find variablestore__pw_ordered_maps__formal_model 153 16 44_4]
+G c Z s s [find variablestore__pw_ordered_maps__formal_model 174 16 44_4]
+G c Z s s [mapDefault_Initial_Condition variablestore__pw_ordered_maps__formal_model__p 50 9 184_7_44_4]
+G c Z s s [has_key variablestore__pw_ordered_maps__formal_model__p 72 13 184_7_44_4]
+G c Z s s [get variablestore__pw_ordered_maps__formal_model__p 84 13 184_7_44_4]
+G c Z s s [length variablestore__pw_ordered_maps__formal_model__p 99 13 184_7_44_4]
+G c Z s s [Ole variablestore__pw_ordered_maps__formal_model__p 107 13 184_7_44_4]
+G c Z s s [Oeq variablestore__pw_ordered_maps__formal_model__p 116 13 184_7_44_4]
+G c Z s s [is_empty variablestore__pw_ordered_maps__formal_model__p 128 13 184_7_44_4]
+G c Z s s [keys_included variablestore__pw_ordered_maps__formal_model__p 135 13 184_7_44_4]
+G c Z s s [same_keys variablestore__pw_ordered_maps__formal_model__p 143 13 184_7_44_4]
+G c Z s s [keys_included_except variablestore__pw_ordered_maps__formal_model__p 154 13 184_7_44_4]
+G c Z s s [keys_included_except variablestore__pw_ordered_maps__formal_model__p 168 13 184_7_44_4]
+G c Z s s [elements_equal_except variablestore__pw_ordered_maps__formal_model__p 185 13 184_7_44_4]
+G c Z s s [elements_equal_except variablestore__pw_ordered_maps__formal_model__p 201 13 184_7_44_4]
+G c Z s s [add variablestore__pw_ordered_maps__formal_model__p 227 13 184_7_44_4]
+G c Z s s [set variablestore__pw_ordered_maps__formal_model__p 245 13 184_7_44_4]
+G c Z s s [has_witness variablestore__pw_ordered_maps__formal_model__p 268 13 184_7_44_4]
+G c Z s s [witness variablestore__pw_ordered_maps__formal_model__p 274 13 184_7_44_4]
+G c Z s s [w_get variablestore__pw_ordered_maps__formal_model__p 282 13 184_7_44_4]
+G c Z s s [iter_first variablestore__pw_ordered_maps__formal_model__p 296 13 184_7_44_4]
+G c Z s s [iter_has_element variablestore__pw_ordered_maps__formal_model__p 299 13 184_7_44_4]
+G c Z s s [iter_next variablestore__pw_ordered_maps__formal_model__p 305 13 184_7_44_4]
+G c Z s s [iter_element variablestore__pw_ordered_maps__formal_model__p 310 13 184_7_44_4]
+G c Z s s [Oeq variablestore__pw_ordered_maps__formal_model__p__element_containers 52 13 326_4_184_7_44_4]
+G c Z s s [length variablestore__pw_ordered_maps__formal_model__p__element_containers 55 13 326_4_184_7_44_4]
+G c Z s s [get variablestore__pw_ordered_maps__formal_model__p__element_containers 58 13 326_4_184_7_44_4]
+G c Z s s [set variablestore__pw_ordered_maps__formal_model__p__element_containers 61 13 326_4_184_7_44_4]
+G c Z s s [add variablestore__pw_ordered_maps__formal_model__p__element_containers 68 13 326_4_184_7_44_4]
+G c Z s s [remove variablestore__pw_ordered_maps__formal_model__p__element_containers 74 13 326_4_184_7_44_4]
+G c Z s s [find variablestore__pw_ordered_maps__formal_model__p__element_containers 77 13 326_4_184_7_44_4]
+G c Z s s [Ole variablestore__pw_ordered_maps__formal_model__p__element_containers 85 13 326_4_184_7_44_4]
+G c Z s s [num_overlaps variablestore__pw_ordered_maps__formal_model__p__element_containers 88 13 326_4_184_7_44_4]
+G c Z s s [union variablestore__pw_ordered_maps__formal_model__p__element_containers 91 13 326_4_184_7_44_4]
+G c Z s s [intersection variablestore__pw_ordered_maps__formal_model__p__element_containers 95 13 326_4_184_7_44_4]
+G c Z s s [element_arrayIP variablestore__pw_ordered_maps__formal_model__p__element_containers 105 9 326_4_184_7_44_4]
+G c Z s s [containerIP variablestore__pw_ordered_maps__formal_model__p__element_containers 113 9 326_4_184_7_44_4]
+G c Z s s [to_count variablestore__pw_ordered_maps__formal_model__p__element_containers 36 13 326_4_184_7_44_4]
+G c Z s s [to_index variablestore__pw_ordered_maps__formal_model__p__element_containers 41 13 326_4_184_7_44_4]
+G c Z s s [find variablestore__pw_ordered_maps__formal_model__p__element_containers 46 13 326_4_184_7_44_4]
+G c Z s s [Oeq variablestore__pw_ordered_maps__formal_model__p__key_containers 52 13 330_4_184_7_44_4]
+G c Z s s [length variablestore__pw_ordered_maps__formal_model__p__key_containers 55 13 330_4_184_7_44_4]
+G c Z s s [get variablestore__pw_ordered_maps__formal_model__p__key_containers 58 13 330_4_184_7_44_4]
+G c Z s s [set variablestore__pw_ordered_maps__formal_model__p__key_containers 61 13 330_4_184_7_44_4]
+G c Z s s [add variablestore__pw_ordered_maps__formal_model__p__key_containers 68 13 330_4_184_7_44_4]
+G c Z s s [remove variablestore__pw_ordered_maps__formal_model__p__key_containers 74 13 330_4_184_7_44_4]
+G c Z s s [find variablestore__pw_ordered_maps__formal_model__p__key_containers 77 13 330_4_184_7_44_4]
+G c Z s s [Ole variablestore__pw_ordered_maps__formal_model__p__key_containers 85 13 330_4_184_7_44_4]
+G c Z s s [num_overlaps variablestore__pw_ordered_maps__formal_model__p__key_containers 88 13 330_4_184_7_44_4]
+G c Z s s [union variablestore__pw_ordered_maps__formal_model__p__key_containers 91 13 330_4_184_7_44_4]
+G c Z s s [intersection variablestore__pw_ordered_maps__formal_model__p__key_containers 95 13 330_4_184_7_44_4]
+G c Z s s [element_arrayIP variablestore__pw_ordered_maps__formal_model__p__key_containers 105 9 330_4_184_7_44_4]
+G c Z s s [containerIP variablestore__pw_ordered_maps__formal_model__p__key_containers 113 9 330_4_184_7_44_4]
+G c Z s s [to_count variablestore__pw_ordered_maps__formal_model__p__key_containers 36 13 330_4_184_7_44_4]
+G c Z s s [to_index variablestore__pw_ordered_maps__formal_model__p__key_containers 41 13 330_4_184_7_44_4]
+G c Z s s [find variablestore__pw_ordered_maps__formal_model__p__key_containers 46 13 330_4_184_7_44_4]
+G c Z s s [mapIP variablestore__pw_ordered_maps__formal_model__p 334 9 184_7_44_4]
+G c Z s s [p_positions_shifted variablestore__pw_ordered_maps__formal_model 198 16 44_4]
+G c Z s s [model variablestore__pw_ordered_maps__formal_model 228 16 44_4]
+G c Z s s [keys variablestore__pw_ordered_maps__formal_model 236 16 44_4]
+G c Z s s [positions variablestore__pw_ordered_maps__formal_model 266 16 44_4]
+G c Z s s [lift_abstraction_level variablestore__pw_ordered_maps__formal_model 290 17 44_4]
+G c Z s s [Oeq variablestore__pw_ordered_maps 320 13 44_4]
+G c Z s s [is_empty variablestore__pw_ordered_maps 324 13 44_4]
+G c Z s s [clear variablestore__pw_ordered_maps 328 14 44_4]
+G c Z s s [assign variablestore__pw_ordered_maps 332 14 44_4]
+G c Z s s [copy variablestore__pw_ordered_maps 340 13 44_4]
+G c Z s s [key variablestore__pw_ordered_maps 352 13 44_4]
+G c Z s s [element variablestore__pw_ordered_maps 360 13 44_4]
+G c Z s s [replace_element variablestore__pw_ordered_maps 370 14 44_4]
+G c Z s s [move variablestore__pw_ordered_maps 397 14 44_4]
+G c Z s s [insert variablestore__pw_ordered_maps 406 14 44_4]
+G c Z s s [insert variablestore__pw_ordered_maps 480 14 44_4]
+G c Z s s [include variablestore__pw_ordered_maps 530 14 44_4]
+G c Z s s [replace variablestore__pw_ordered_maps 610 14 44_4]
+G c Z s s [exclude variablestore__pw_ordered_maps 643 14 44_4]
+G c Z s s [delete variablestore__pw_ordered_maps 692 14 44_4]
+G c Z s s [delete variablestore__pw_ordered_maps 734 14 44_4]
+G c Z s s [delete_first variablestore__pw_ordered_maps 778 14 44_4]
+G c Z s s [delete_last variablestore__pw_ordered_maps 813 14 44_4]
+G c Z s s [first variablestore__pw_ordered_maps 844 13 44_4]
+G c Z s s [first_element variablestore__pw_ordered_maps 854 13 44_4]
+G c Z s s [first_key variablestore__pw_ordered_maps 861 13 44_4]
+G c Z s s [last variablestore__pw_ordered_maps 869 13 44_4]
+G c Z s s [last_element variablestore__pw_ordered_maps 880 13 44_4]
+G c Z s s [last_key variablestore__pw_ordered_maps 886 13 44_4]
+G c Z s s [next variablestore__pw_ordered_maps 894 13 44_4]
+G c Z s s [next variablestore__pw_ordered_maps 909 14 44_4]
+G c Z s s [previous variablestore__pw_ordered_maps 924 13 44_4]
+G c Z s s [previous variablestore__pw_ordered_maps 939 14 44_4]
+G c Z s s [find variablestore__pw_ordered_maps 954 13 44_4]
+G c Z s s [element variablestore__pw_ordered_maps 976 13 44_4]
+G c Z s s [floor variablestore__pw_ordered_maps 982 13 44_4]
+G c Z s s [ceiling variablestore__pw_ordered_maps 997 13 44_4]
+G c Z s s [contains variablestore__pw_ordered_maps 1012 13 44_4]
+G c Z s s [has_element variablestore__pw_ordered_maps 1017 13 44_4]
+G c Z s s [node_typeIP variablestore__pw_ordered_maps 1034 9 44_4]
+G c Z s s [adjust variablestore__pw_ordered_maps__tree_types__implementation 90 28 77_7_1044_4_44_4]
+G c Z s s [finalize variablestore__pw_ordered_maps__tree_types__implementation 93 28 77_7_1044_4_44_4]
+G c Z s s [zero_counts variablestore__pw_ordered_maps__tree_types__implementation 96 17 77_7_1044_4_44_4]
+G c Z s s [busy variablestore__pw_ordered_maps__tree_types__implementation 100 17 77_7_1044_4_44_4]
+G c Z s s [unbusy variablestore__pw_ordered_maps__tree_types__implementation 104 17 77_7_1044_4_44_4]
+G c Z s s [lock variablestore__pw_ordered_maps__tree_types__implementation 108 17 77_7_1044_4_44_4]
+G c Z s s [unlock variablestore__pw_ordered_maps__tree_types__implementation 112 17 77_7_1044_4_44_4]
+G c Z s s [tc_check variablestore__pw_ordered_maps__tree_types__implementation 116 17 77_7_1044_4_44_4]
+G c Z s s [te_check variablestore__pw_ordered_maps__tree_types__implementation 120 17 77_7_1044_4_44_4]
+G c Z s s [initialize variablestore__pw_ordered_maps__tree_types__implementation 139 28 77_7_1044_4_44_4]
+G c Z s s [finalize variablestore__pw_ordered_maps__tree_types__implementation 140 28 77_7_1044_4_44_4]
+G c Z s s [initialize variablestore__pw_ordered_maps__tree_types__implementation 145 28 77_7_1044_4_44_4]
+G c Z s s [finalize variablestore__pw_ordered_maps__tree_types__implementation 146 28 77_7_1044_4_44_4]
+G c Z s s [reference_control_typeDA variablestore__pw_ordered_maps__tree_types__implementation 84 12 77_7_1044_4_44_4]
+G c Z s s [reference_control_typeDF variablestore__pw_ordered_maps__tree_types__implementation 84 12 77_7_1044_4_44_4]
+G c Z s s [reference_control_typeIP variablestore__pw_ordered_maps__tree_types__implementation 84 12 77_7_1044_4_44_4]
+G c Z s s [with_busyDF variablestore__pw_ordered_maps__tree_types__implementation 136 12 77_7_1044_4_44_4]
+G c Z s s [with_busyIP variablestore__pw_ordered_maps__tree_types__implementation 136 12 77_7_1044_4_44_4]
+G c Z s s [with_lockDF variablestore__pw_ordered_maps__tree_types__implementation 142 12 77_7_1044_4_44_4]
+G c Z s s [with_lockIP variablestore__pw_ordered_maps__tree_types__implementation 142 12 77_7_1044_4_44_4]
+G c Z s s [nodes_typeIP variablestore__pw_ordered_maps__tree_types 58 12 1044_4_44_4]
+G c Z s s [tree_typeDA variablestore__pw_ordered_maps__tree_types 67 12 1044_4_44_4]
+G c Z s s [tree_typeDF variablestore__pw_ordered_maps__tree_types 67 12 1044_4_44_4]
+G c Z s s [tree_typeIP variablestore__pw_ordered_maps__tree_types 67 12 1044_4_44_4]
+G c Z s s [mapDA variablestore__pw_ordered_maps 1047 9 44_4]
+G c Z s s [mapDF variablestore__pw_ordered_maps 1047 9 44_4]
+G c Z s s [mapIP variablestore__pw_ordered_maps 1047 9 44_4]
+G c Z s s [color variablestore__pw_ordered_maps 48 13 44_4]
+G c Z s s [left_son variablestore__pw_ordered_maps 52 13 44_4]
+G c Z s s [parent variablestore__pw_ordered_maps 55 13 44_4]
+G c Z s s [right_son variablestore__pw_ordered_maps 58 13 44_4]
+G c Z s s [set_color variablestore__pw_ordered_maps 61 14 44_4]
+G c Z s s [set_left variablestore__pw_ordered_maps 66 14 44_4]
+G c Z s s [set_right variablestore__pw_ordered_maps 69 14 44_4]
+G c Z s s [set_parent variablestore__pw_ordered_maps 72 14 44_4]
+G c Z s s [free variablestore__pw_ordered_maps 87 14 44_4]
+G c Z s s [is_greater_key_node variablestore__pw_ordered_maps 89 13 44_4]
+G c Z s s [is_less_key_node variablestore__pw_ordered_maps 94 13 44_4]
+G c Z s s [min variablestore__pw_ordered_maps__tree_operations 67 13 103_4_44_4]
+G c Z s s [max variablestore__pw_ordered_maps__tree_operations 70 13 103_4_44_4]
+G c Z s s [vet variablestore__pw_ordered_maps__tree_operations 73 13 103_4_44_4]
+G c Z s s [next variablestore__pw_ordered_maps__tree_operations 77 13 103_4_44_4]
+G c Z s s [previous variablestore__pw_ordered_maps__tree_operations 82 13 103_4_44_4]
+G c Z s s [delete_node_sans_free variablestore__pw_ordered_maps__tree_operations 94 14 103_4_44_4]
+G c Z s s [clear_tree variablestore__pw_ordered_maps__tree_operations 99 14 103_4_44_4]
+G c Z s s [rebalance_for_insert variablestore__pw_ordered_maps__tree_operations 137 14 103_4_44_4]
+G c Z s s [free variablestore__pw_ordered_maps__tree_operations 152 14 103_4_44_4]
+G c Z s s [delete_fixup variablestore__pw_ordered_maps__tree_operations 50 14 103_4_44_4]
+G c Z s s [delete_swap variablestore__pw_ordered_maps__tree_operations 51 14 103_4_44_4]
+G c Z s s [left_rotate variablestore__pw_ordered_maps__tree_operations 53 14 103_4_44_4]
+G c Z s s [right_rotate variablestore__pw_ordered_maps__tree_operations 54 14 103_4_44_4]
+G c Z s s [find variablestore__pw_ordered_maps__key_ops 157 13 111_4_44_4]
+G c Z s s [ceiling variablestore__pw_ordered_maps__key_ops 162 13 111_4_44_4]
+G c Z s s [floor variablestore__pw_ordered_maps__key_ops 167 13 111_4_44_4]
+G c Z s s [upper_bound variablestore__pw_ordered_maps__key_ops 172 13 111_4_44_4]
+G c Z s s [databaseIP variablestore 51 9 none]
+G r i none [s variablestore 7 1 none] [mystring standard 5 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 54|1r6 2r6 3r5 9r27 37r44 45r6 71r44 55|1r6 2r6 30r10 31r10
+. 32r10 33r10 34r10
+X 2 a-contai.ads
+16K13*Containers 24e19 54|1r10 2w10 3r9 9r31 37r48 45r10 71r48
+20I9*Count_Type<integer> 54|9r42 37r59 71r59
+X 3 a-cforma.ads
+57+9 Key_Type 54|46r9
+58+9 Element_Type 54|47r9
+60V19 "<"{boolean} 54|48r10
+62k24*Formal_Ordered_Maps 1052e39 54|1w21 45r21
+73R9*Map<13|67R12[1044[54|44]]> 54|52r35[44]
+81R9*Cursor 55|22r27[54|44]
+85r4*No_Element{81R9[54|44]} 55|22r53[54|44] 27r54[54|44]
+89V13*Length{2|20I9} 54|72s24[44]
+328U14*Clear 55|8s23[54|44]
+352V13*Key{54|13R9} 55|28s31[54|44]
+360V13*Element{integer} 55|29s35[54|44]
+530U14*Include 55|13s23[54|44]
+692U14*Delete 55|18s23[54|44]
+844V13*First{81R9[54|44]} 55|26s28[54|44]
+909U14*Next 55|35s26[54|44]
+976V13*Element{integer} 54|57s23[44]
+976r22 Container{73R9[54|44]} 54|57r31[44]
+976r39 Key{54|13R9} 54|57r56[44]
+1012V13*Contains{boolean} 54|59s23[44]
+1012r23 Container{73R9[54|44]} 54|59r32[44]
+1012r40 Key{54|13R9} 54|59r58[44]
+X 4 a-cforma.adb
+48V13 Color{13|37E9} 16|57i19[54|44]
+55V13 Parent{2|20I9} 16|39i19[54|44]
+61U14 Set_Color 16|59i19[54|44]
+66U14 Set_Left 16|47i19
+69U14 Set_Right 16|53i19[54|44]
+72U14 Set_Parent 16|41i19
+X 7 a-cofuma.ads
+320V14 "="=322:48{boolean} 5|43i19
+X 13 a-crbltr.ads
+67R12 Tree_Type
+X 20 a-inteio.ads
+18K13*Integer_Text_IO[25|46] 55|2w10 33r14
+X 24 a-textio.ads
+57K13*Text_IO 727e16 55|1w10 30r14 31r14 32r14 34r14
+264U14*New_Line 55|34s22
+465U14*Put 55|30s22 31s22 32s22
+X 25 a-tiinio.ads
+80U14*Put 55|33s30[20|18]
+X 29 mystring.ads
+2i4 Max_MyString_Length{positive} 54|11r38
+5k9*MyString 48e13 54|5w6 11r29
+6R9*MyString 54|13r35[11] 64r37[11] 67r33[11] 67r56[11] 69r34[11] 69r57[11]
+8V13*To_String{string} 54|64s17[11]
+12V13*From_String{6R9[54|11]} 54|62s26[11]
+16V13*Less{boolean} 54|67s18[11]
+18V13*Equal{boolean} 54|69s18[11]
+X 31 system.ads
+67M9*Address
+X 39 s-memory.ads
+53V13*Alloc{31|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{31|67M9} 105i<c,__gnat_realloc>22
+X 45 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 54 variablestore.ads
+7K9*VariableStore 44E12 73l5 73e18 55|4b14 39l5 39t18
+8i4*Max_Variable_Length{natural} 11r61 31r25
+9i4*Max_Entries{2|20I9} 25r25 52r51
+11K12*Variables[29|5] 13r25 62r16 64r7 64r27 67r8 67r23 67r46 69r8 69r24
+. 69r47
+13R9*Variable<29|6R9[11]> 19r50 21r41 24r46 27r49 30r44 32r27 34r23 34r38
+. 35r24 35r39 46r28 56r41 58r50 61r44 62r7 63r27 66r23 66r38 68r24 68r39
+. 55|11r46 16r49 23r11
+15R9*Database 17r27 19r33 21r24 24r29 27r32 37r27 39r27 51c9 53e14 56r24
+. 58r33 71r27 55|6r27 11r29 16r32 21r27
+17U14*Init 17<19 55|6b14 9l8 9t12
+17r19 D{15R9} 55|6b19 8m29 8r29
+19V13*Has_Variable{boolean} 19>26 19>43 22s13 25s40 28s13 58b13
+19r26 D{15R9} 59r45
+19r43 V{13R9} 59r65
+21V13*Get{integer} 21>17 21>34 56b13
+21r17 D{15R9} 22r26 57r44
+21r34 V{13R9} 22r28 57r63
+24U14*Put 24=18 24>39 24>56 55|11b14 14l8 14t11
+24r18 D{15R9} 25r20 25r53 55|11b18 13m31 13r31
+24r39 V{13R9} 25r55 55|11b39 13r43
+24i56 Value{integer} 55|11b56 13r45
+27U14*Remove 27=21 27>42 55|16b14 19l8 19t14
+27r21 D{15R9} 28r26 55|16b21 18m30 18r30
+27r42 V{13R9} 28r28 55|16b42 18r42
+30V13*From_String{13R9}<29|12p13> 30>25 61b13
+30a25 S{string} 31r13 62r38
+32V13*To_String{string}<29|8p13> 32>23 63b13 55|31s26
+32r23 V{13R9} 64r46
+34V13*Less{boolean}<29|16p13> 34>18 34>33 48r16 66b13
+34r18 V1{13R9} 67r42
+34r33 V2{13R9} 67r65
+35V13*Equal{boolean}<29|18p13> 35>19 35>34 68b13
+35r19 V1{13R9} 69r43
+35r34 V2{13R9} 69r66
+37V13*Length{2|20I9} 25s13 37>20 71b13
+37r20 D{15R9} 72r31
+39U14*Print 39>20 55|21b14 37l8 37t13
+39r20 D{15R9} 55|21b20 26r34 28r35 29r43 35r31
+44K12 PW_Ordered_Maps[3|62] 52r19 57r7 59r7 72r8 55|8r7 13r7 18r7 22r11 22r37
+. 26r12 27r14 27r38 28r15 29r19 35r10
+52r7*variables{3|73R9[44]} 57r46 59r47 72r33 55|8m31 13m33 18m32 26r36 28r37
+. 29r45 35r33
+X 55 variablestore.adb
+22r7 C{3|81R9[54|44]} 26m7 27r35 28r48 29r56 35m44 35r44
+23r7 V{54|13R9} 28m10 31r36
+24i7 Value{integer} 29m10 33r34
+

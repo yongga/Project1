@@ -1,0 +1,24 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/default.gpr
+20200518125931
+[BOUND OBJECT FILES]
+/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/obj/mycommandline.o
+/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/obj/mystring.o
+/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/obj/mystringtokeniser.o
+/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/obj/pin.o
+/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/obj/simplestack.o
+/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/obj/stringtointeger.o
+/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/obj/variablestore.o
+/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/obj/
+-L/Users/johnnyboy/Desktop/SWEN90010 High Integrity Systems Engineering/Assignment 3 - ADA/assignment3/obj/
+-L/users/johnnyboy/opt/gnat/2019/lib/gcc/x86_64-apple-darwin17.7.0/8.3.1/adalib/
+-static
+/users/johnnyboy/opt/gnat/2019/lib/gcc/x86_64-apple-darwin17.7.0/8.3.1/adalib/libgnat.a
